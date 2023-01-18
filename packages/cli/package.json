@@ -1,0 +1,32 @@
+{
+  "name": "@qql-lerna/lernacli",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "1959377950 <1959377950@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/cli.js",
+  "module": "dist/cli.module.js",
+  "bin": {
+    "lernacli": "bin/cli.mjs"
+  },
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/cli.test.mjs"
+  },
+  "dependencies": {
+    "@qql-lerna/a": "^0.0.0",
+    "yargs": "^17.6.2"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
+}
