@@ -22,7 +22,6 @@
     "test": "node ./__tests__/cli.test.mjs"
   },
   "dependencies": {
-    "@qql-lerna/a": "^0.0.0",
     "yargs": "^17.6.2"
   },
   "type": "module",
