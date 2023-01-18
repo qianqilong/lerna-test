@@ -1,6 +1,6 @@
 {
   "name": "@qql-lerna/lernacli",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "1959377950 <1959377950@qq.com>",
   "homepage": "",
@@ -27,5 +27,6 @@
   "type": "module",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "1e7a85c94a508a9b12206759512c749d68c9cc70"
 }
